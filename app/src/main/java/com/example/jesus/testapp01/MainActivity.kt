@@ -12,15 +12,18 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
     }
     fun button01OnClick (v: View){
-        Toast.makeText(this, "Has clickeado el botón 1", Toast.LENGTH_SHORT).show()
+        displayToast("1")
     }
     fun button02OnClick (v: View){
-        Toast.makeText(this, "Has clickeado el botón 2", Toast.LENGTH_SHORT).show()
+        displayToast("2")
     }
     fun button03OnClick (v: View){
-        Toast.makeText(this, "Has clickeado el botón 3", Toast.LENGTH_SHORT).show()
+        displayToast("3")
     }
     fun button04OnClick (v: View){
-        Toast.makeText(this, "Has clickeado el botón 4", Toast.LENGTH_SHORT).show()
+        displayToast("4")
+    }
+    fun displayToast (buttonNumber: String){
+        Toast.makeText(this, "Has clickeado el botón: $buttonNumber", Toast.LENGTH_SHORT).show()
     }
 }
