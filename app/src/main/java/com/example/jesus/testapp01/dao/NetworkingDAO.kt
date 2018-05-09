@@ -28,7 +28,6 @@ class NetworkingDAO {
     @Throws(IOException::class)
     fun request(uri: String): String {
         val sb = StringBuilder()
-
         val url = URL(uri)
         val urlConnection = url.openConnection() as HttpURLConnection
         try {
