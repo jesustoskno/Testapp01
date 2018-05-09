@@ -9,7 +9,10 @@ class PlantService {
         var allPlants = ArrayList<Plant>()
         var i = 1 + 1
 
+        var plant = Plant()
+
         // Parse to plant objects
+
 
         // Add plant objects to a collection
 
