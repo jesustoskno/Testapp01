@@ -18,7 +18,8 @@ class MainActivity : AppCompatActivity() {
         displayToast("1")
     }
     fun button02OnClick (v: View){
-        displayToast("2")
+        var redbud = Plant(83, "Cercis", "canadensis", "", "Eastern Redbud")
+        var pawpaw = Plant(100, "Asmina", "Triloba", "Alleghany", "Alleghany Pawpaw", 10)
     }
     fun button03OnClick (v: View){
         //Instantiate our GetPlantsActivity
