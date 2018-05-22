@@ -7,15 +7,11 @@ class PlantService {
 
         //Open connection to a data feed.
         var allPlants = ArrayList<Plant>()
-        var i = 1 + 1
-
         var plant = Plant()
-
         // Parse to plant objects
 
-
         // Add plant objects to a collection
-
+        allPlants.add(plant)
         // Return collection
         return allPlants
     }
